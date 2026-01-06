@@ -17,7 +17,10 @@
  }
 }
 header{
-  background-color:#FFF8F3 ;
+background-color: #FFF8F3;
+  background-image: url(../images/developer.png),url(../images/header_bg.png);
+  background-position: top left,bottom right;
+  background-repeat: no-repeat;
   padding: 50px;
 }
 .menu{
@@ -50,4 +53,37 @@ nav{
   font-size: 20px;
   font-weight: bold;
   color: white;
+  cursor: pointer;
+}
+.benar{
+ /*border: 1px solid;*/
+  margin: 47px 38px 0px 230px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.benar-conten{
+  max-width: 585px;
+}
+.benar-conten h2{font-size: 45px;
+  font-weight: 600;
+  color: #474747;
+  margin-bottom: 5px;
+
+}
+.benar-conten h1{
+  font-size: 85px;
+  font-weight: bold;
+  color: #181818;
+  margin-bottom: 20px;
+}
+.benar-conten p{
+  font-size: 18px;
+  color: #757575;
+  line-height: 30px;
+  margin-bottom: 30px;
+}
+.benar-image{
+  max-width: 585px;
+  vertical-align: middle;
 }
