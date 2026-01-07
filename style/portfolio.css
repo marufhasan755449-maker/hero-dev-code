@@ -12,10 +12,12 @@
   font-size: 45px;
   font-weight: 900;
 }
+
+}
  .foot{
   color: #FD6E0A;
  }
-}
+
 header{
 background-color: #FFF8F3;
   background-image: url(../images/developer.png),url(../images/header_bg.png);
@@ -56,7 +58,7 @@ nav{
   cursor: pointer;
 }
 .section-heading{
-  max-width: 827px;
+  max-width:827px;
   text-align: center;
   margin:0 auto;
 }
@@ -127,14 +129,26 @@ vertical-align: middle;
   line-height: 30px;
   color: #757575;
 }
-#skills{
+#skills{ 
   padding-top: 130px;
 }
+#resume{
+padding-top: 130px;
+}
+
 .skills-conten{
   width: 71%;
   max-width: 1140px;
   margin: 0 auto;
 }
+.resume-conten{
+  width: 71%;
+  max-width: 1140px;
+  margin:113px auto 0;
+  display: flex;
+  gap: 24px;
+  
+} 
 .skills-box{
   display: flex;
   gap: 24px;
@@ -144,6 +158,7 @@ vertical-align: middle;
   padding: 30px;
   width: 267px;
   height: 377px;
+  border-radius:10px;
   
   
 }
@@ -161,4 +176,83 @@ vertical-align: middle;
   font-size: 16px;
   color: #757575;
   line-height: 28px;
+}
+.section-title{
+  color: #474747;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+.resume-card{
+  max-width: 511px;
+  margin-right: 47px;
+}
+.card-title{
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #474747;
+}
+.card-info{
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #474747;
+}
+.card-text{
+  font-size: 16px;
+  line-height: 28px;
+  color: #757575;
+}
+.resume-conten hr{
+  margin: 30px 0;
+}
+.su{
+  text-align: center;
+}
+footer{
+  margin-top: 130px;
+  background-color: #FFF8F3;
+  padding: 130px 0;
+}
+.footer-conten{
+  display:flex;
+  width: 71%;
+  max-width: 1140px;
+  margin: 0 auto;
+  gap: 116px;
+}
+.footer-conten h2{
+  font-size: 35px;
+  color: #181818;
+  margin-bottom: 20px;
+}
+.social{
+  max-width: 562px;
+}
+.social p{
+  font-size: 16px;
+  line-height: 28px;
+  color: #474747;
+margin-bottom: 30px;
+}
+.icons a{
+max-width: 120px;
+color: #FD6E0A;
+margin-right: 24px;
+}
+
+form input[type=text]{
+  width: 461px;
+  padding:18px 31px;
+  margin-bottom:24px;
+  color: #757575;
+  border-radius: 5px;
+}
+textarea.text-mar{
+  width: 461px;
+  padding: 18px 365px 134px 30px;
+  font-size: 16px;
+  margin-bottom: 24px;
+  border-radius: 5px;
+  color: #757575;
 }
